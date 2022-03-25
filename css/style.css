@@ -1,0 +1,327 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+
+html{height:100%}
+
+body{line-height:1}
+
+ol,ul{list-style:none}
+
+blockquote,q{quotes:none}
+
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}
+
+table{border-collapse:collapse;border-spacing:0}
+
+body {
+    margin: 0 !important;
+    font-family: 'Ubuntu', sans-serif;   
+}
+
+.header {
+    background-image: url(/image/Rectangle.svg);
+    max-width: 1600px;
+    width: 100%;
+    height: 765px;
+    margin: auto;
+    color: #FFFFFF;
+}
+
+.header_first-stroke-wrapper {
+    margin: auto;
+    padding-top: 43px;
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    height: 38px;
+}
+
+.header_logo {
+    display: flex;
+    align-items: center;
+    max-width: 135px;
+    width: 100%;
+    justify-content: space-between;    
+}
+
+.header_logo-text {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;    
+}
+
+.header_info-group {
+    display: flex;
+    align-items: center;
+    max-width: 398px;
+    width: 100%;
+    justify-content: space-between;
+    margin-left: 111px;
+    font-size: 15px;
+}
+
+.header_info-group__home {
+    border-bottom: 1px #FFFFFF solid;
+    line-height: 26.5px;
+    height: fit-content;
+}
+
+.header_next-country {
+    margin-left: 74px;    
+}
+
+.header_next-country__country {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.header_next-country__button {
+    font-size: 12px;
+}
+
+.header_call-button {
+    margin-left: 53px;
+    width: 168px;
+    height: 38px;
+    border: 1px solid #FFFFFF;
+    border-radius: 100px;
+    background:transparent;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.header_phone-number {
+    margin-left: 21px;
+    font-size: 15px;
+}
+
+.header_demotivator-wrapper {
+    max-width: 633px;
+    width: 100%;
+    height: 217px;
+    margin: 193px auto 0 auto;
+    text-align: center;    
+}
+
+.header_demotivator-header {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.header_demotivator-text {
+    max-width: 462px;
+    width: 100%;
+    height: 71px;
+    margin: 18px auto 0 auto;    
+}
+
+.header_demotivator-button {
+    width: 209px;    
+    height: 50px;
+    background-color: #FF7D34;
+    border-radius: 69px;
+    margin: 21px auto 0 auto;
+    border: none;
+    color: #FFFFFF;
+}
+
+.header_arrow-down {    
+    margin-top: 184px;       
+}
+
+.header_arrow-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto 0 auto;
+}
+
+.block_header {
+    font-weight: 700;
+    font-size: 38px;
+    color: #543024;
+    margin-top: 96px;   
+}
+
+.content_gallery {
+    margin-top: 47px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+    grid-auto-rows: minmax(100px, auto);    
+}
+
+.content_gallery-card {
+    width: 585px;
+    height: 173px;
+    box-shadow: 0px 17px 50px rgba(32, 40, 69, 0.14);
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);           
+}
+
+.content_gallery-text {
+    display: grid;
+    grid-template-rows: 54px 50px 50px;
+}
+
+.text-status__info {
+    display: flex;
+    align-items: flex-end;    
+}
+
+.info_days { 
+    width: 67px;
+    height: 21px;
+    align-items: center;   
+    border-radius: 30px;
+    background-color: #EE3C5C;
+    color: #FFFFFF;
+    border: none;
+}
+
+.info_tourists-summ {
+    width: 95px;
+    height: 21px;
+    align-items: center;   
+    border-radius: 30px;
+    background-color: #EE3C5C;
+    color: #FFFFFF;
+    border: none;
+}
+
+.info_date-start {
+    width: 95px;
+    height: 21px;
+    align-items: center;        
+    background-color: #FFFFFF;
+    border: none;
+    color: #EE3C5C;
+}
+
+.text_header-wrapper {
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.text_header {
+    font-size: 19px;
+    font-weight: 700;
+    color: #543024;
+    line-height: 22px;        
+}
+
+.text_about-country {
+    font-size: 13px;
+    line-height: 15px;
+    width: 250px;
+}
+
+.more_country {
+    margin-top: 58px;
+    width: 245px;
+    height: 50px;
+    border: 1px solid #FF7D34;  
+    border-radius: 69px;
+    background:transparent;
+    font-weight: 700;
+    color: #FF7D34;
+}
+
+.where_are_we_gone {
+    display: flex;
+    justify-content: space-between;
+}
+
+.where_are_we_gone-leftside__header {
+    margin-top: 101px;
+    font-weight: 700;
+    font-size: 19px;
+    color: #543024;
+}
+
+.where_are_we_gone-leftside__paragraph1 {
+    margin-top: 25px;
+    font-size: 15px;
+}
+
+.where_are_we_gone-leftside__paragraph2 {
+    margin-top: 25px;
+    font-size: 15px;
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-between;
+    max-width: 994px;
+    width: 100%;
+}
+
+.contact_card {
+    width: 601px;
+    height: 534px;
+    box-shadow: 0px 17px 50px rgba(32, 40, 69, 0.14);
+    border-radius: 20px;
+    margin-top: 57px;
+}
+
+.contact_card-wrapper {
+    display: grid;
+    grid-template-rows: 147px 74px 72px 79px 162px;
+    width: 473px;
+    margin: auto;   
+}
+
+.contact_card-header {
+    font-weight: 700;
+    color: #543024;
+    font-size: 19px;
+    width: 367px;
+    margin-top: 58px;
+}
+
+.contact_card-input {
+    width: 473px;
+    height: 59px;
+}
+
+.contact_card-button {
+    width: 296px;    
+    height: 65px;
+    background-color: #FF7D34;
+    border-radius: 69px;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+.phone_img {
+    margin: 263px 0 0 68px;
+}
+
+.contact_number {
+    color: rgba(114, 52, 26, 0.89);
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 23px;
+}
+
+.footer_wrapper {
+    margin-top: 116px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 119px;
+}
+
+.footer {
+    color: rgba(114, 52, 26, 0.6);
+    font-size: 14px;    
+}
