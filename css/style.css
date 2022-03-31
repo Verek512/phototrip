@@ -29,13 +29,14 @@ body {
 }
 
 .header_first-stroke-wrapper {
-    margin: auto;
-    padding-top: 43px;
     display: flex;
     align-items: center;
     max-width: 1200px;
     width: 100%;
     height: 38px;
+    position: absolute;
+    margin: 43px 200px 0 200px;
+    line-height: 17px
 }
 
 .header_logo {
@@ -49,7 +50,9 @@ body {
 .header_logo-text {
     font-size: 16px;
     text-transform: uppercase;
-    font-weight: 700;    
+    font-weight: 700;
+    letter-spacing: 0.055em;
+    line-height: 18px    
 }
 
 .header_info-group {
@@ -69,7 +72,8 @@ body {
 }
 
 .header_next-country {
-    margin-left: 74px;    
+    margin-left: 74px;
+    line-height: 16px    
 }
 
 .header_next-country__country {
@@ -79,6 +83,7 @@ body {
 
 .header_next-country__button {
     font-size: 12px;
+    line-height: 16px
 }
 
 .header_call-button {
@@ -101,7 +106,8 @@ body {
     max-width: 633px;
     width: 100%;
     height: 217px;
-    margin: 193px auto 0 auto;
+    margin: 0 auto 0 auto;
+    padding-top: 274px;
     text-align: center;    
 }
 
@@ -125,6 +131,10 @@ body {
     margin: 21px auto 0 auto;
     border: none;
     color: #FFFFFF;
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
 }
 
 .header_arrow-down {    
@@ -185,6 +195,7 @@ body {
     background-color: #EE3C5C;
     color: #FFFFFF;
     border: none;
+    font-family: 'Ubuntu';
 }
 
 .info_tourists-summ {
@@ -195,6 +206,8 @@ body {
     background-color: #EE3C5C;
     color: #FFFFFF;
     border: none;
+    margin-left: 1.73px;
+    font-family: 'Ubuntu';
 }
 
 .info_date-start {
@@ -204,6 +217,7 @@ body {
     background-color: #FFFFFF;
     border: none;
     color: #EE3C5C;
+    font-family: 'Ubuntu';
 }
 
 .text_header-wrapper {
@@ -234,6 +248,10 @@ body {
     background:transparent;
     font-weight: 700;
     color: #FF7D34;
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
 }
 
 .where_are_we_gone {
@@ -242,20 +260,31 @@ body {
 }
 
 .where_are_we_gone-leftside__header {
-    margin-top: 101px;
     font-weight: 700;
     font-size: 19px;
     color: #543024;
+    margin-top: 101px;
+}
+
+.where_are_we_gone-text {
+    width: 572px;
+    height: 188px;
 }
 
 .where_are_we_gone-leftside__paragraph1 {
     margin-top: 25px;
     font-size: 15px;
+    line-height: 140.9%;
 }
 
 .where_are_we_gone-leftside__paragraph2 {
     margin-top: 25px;
     font-size: 15px;
+    line-height: 140.9%;
+}
+
+.where_are_we_gone-img {
+    margin-top: 49px;
 }
 
 .contacts {
@@ -288,9 +317,20 @@ body {
     margin-top: 58px;
 }
 
-.contact_card-input {
-    width: 473px;
+.contact_card-input {    
     height: 59px;
+    background: #FFFFFF;
+    border: 1px solid rgba(39, 52, 86, 0.26);
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: rgba(39, 52, 86, 0.56);
+    padding-left: 26px;
+    outline: none;
 }
 
 .contact_card-button {
@@ -314,14 +354,14 @@ body {
     margin-top: 23px;
 }
 
-.footer_wrapper {
+.footer {
     margin-top: 116px;
     display: flex;
     justify-content: center;
     padding-bottom: 119px;
 }
 
-.footer {
+.footer_wrapper {
     color: rgba(114, 52, 26, 0.6);
     font-size: 14px;    
 }
