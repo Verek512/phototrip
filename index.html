@@ -9,25 +9,25 @@
     <title>Phototrip</title>
 </head>
 <body>
-    <div class="header">
-        <div class="header_first-stroke-wrapper">
-            <div class="header_logo">
-                <img src="image/Logo_img.svg" alt="logo">
-                <h2 class="header_logo-text">Phototrip</h2>
-            </div>
-            <div class="header_info-group">
-                <div class="header_info-group__home">Главная</div>
-                <div>Куда поедем</div>
-                <div>О нас</div>
-                <div>Контакты</div>
-            </div>   
-            <div class="header_next-country">
-                <div class="header_next-country__country">Индия</div>
-                <div class="header_next-country__button">Следующая страна</div>  
-            </div>
-            <button class="header_call-button">Заказать звонок</button>
-            <div class="header_phone-number">+7 (495) 234-43-65</div>
+    <header class="header">
+        <div class="header_logo">
+            <img src="image/Logo_img.svg" alt="logo">
+            <h2 class="header_logo-text">Phototrip</h2>
         </div>
+        <div class="header_info-group">
+            <div class="header_info-group__home">Главная</div>
+            <div>Куда поедем</div>
+            <div>О нас</div>
+            <div>Контакты</div>
+        </div>   
+        <div class="header_next-country">
+            <div class="header_next-country__country">Индия</div>
+            <div class="header_next-country__button">Следующая страна</div>  
+        </div>
+        <button type="button" class="header_call-button">Заказать звонок</button>
+        <div class="header_phone-number">+7 (495) 234-43-65</div>
+    </header>
+    <div class="greetings">
         <div class="header_demotivator-wrapper">
             <h1 class="header_demotivator-header">Фотопутешествие мечты</h1>
             <p class="header_demotivator-text">Отправляйся с нами в путешествие, в котором будет все: эмоции, впечатления, люди и фотография. Все, что ты так любишь! Мы уже ждем тебя.</p>
@@ -37,7 +37,7 @@
             <img class="header_arrow-down" src="/image/arrowdown.png" alt="arrrow_down">
         </div>
     </div>
-    <div class="content">
+    <div class="where">
         <h2 class="block_header">Куда поедем</h2>
         <div class="content_gallery">
             <div class="content_gallery-card">
@@ -98,6 +98,8 @@
             </div>
         </div>
         <button class="more_country">Смотреть еще страны</button>
+    </div>
+    <div class="about_us">
         <h2 class="block_header">О нас</h2>        
             <div class="where_are_we_gone">
             <div class="where_are_we_gone-wrapper">
@@ -111,22 +113,28 @@
             </div>           
             <img class="where_are_we_gone-img" src="/image/content_info-img.png" alt="content_info-img">
             </div>
+    </div>
+    <div class="contact_info">
         <h2 class="block_header">Контакты</h2>
         <div class="contacts">
-            <div class="contact_card">
+            <form action="..." class="contact_card">
                 <div class="contact_card-wrapper">                         
                     <h3 class="contact_card-header">Заполните форму, чтобы оказаться в нашей команде</h3>
-                    <input class="contact_card-input" type="text" placeholder="Имя"> 
-                    <input class="contact_card-input" type="text" placeholder="E-mail">
-                    <input class="contact_card-input" type="text" placeholder="Телефон">
+                    <p><label for="name"></label>
+                    <input class="contact_card-input" name="name" type="text" placeholder="Имя"></p>
+                    <p><label for="E-mail"></label>
+                    <input class="contact_card-input" name="E-mail" type="text" placeholder="E-mail"></p>
+                    <p><label for="phone_number"></label>
+                    <input class="contact_card-input" name="phone_number" type="text" placeholder="Телефон"></p>
                     <button class="contact_card-button">Мне нужно это</button>
                 </div>
-            </div>    
+            </form>    
             <div class="contact_phone">
                 <img class="phone_img" src="/image/phone_img.png" alt="phone_img">
                 <p class="contact_number">+7 (495) 234-43-65</p>
             </div>                        
         </div>
+    </div>    
         <footer class="footer">
             <div class="footer_wrapper">2020 © Phototrip</div>
         </footer>       
